@@ -56,7 +56,7 @@ I would like to reserve my place in the class.
 
   return (
     <MainLayout>
-      <section className="pt-36 pb-24 bg-[#faf8f5]">
+      <section className="pt-32 pt-36 pb-24 bg-[#faf8f5]">
         <div className="max-w-6xl mx-auto px-6">
           <div className="max-w-3xl">
             <h1 className="text-5xl font-bold text-[#2c221b]">
@@ -162,7 +162,7 @@ I would like to reserve my place in the class.
                     <option>Traditional Hatha Yoga</option>
                     <option>Meditation Program</option>
                     <option>Pranayama Sessions</option>
-                    <option>Private Yoga Class</option>
+                    <option>Ashtanga vinyasa yoga</option>
                   </select>
                 </div>
 
@@ -177,10 +177,10 @@ I would like to reserve my place in the class.
                     onChange={handleChange}
                     className="w-full border border-zinc-300 rounded-xl p-4 focus:outline-none focus:ring-2 focus:ring-[#6B4F3B]"
                   >
-                    <option>Summer Morning · 5:15 AM</option>
-                    <option>Morning · 6:30 AM</option>
-                    <option>Evening · 5:00 PM</option>
-                    <option>Evening · 6:30 PM</option>
+                    <option>Summer Morning · 5:15 AM - 6:15 </option>
+                    <option>Winter Morning · 5:30 AM - 6:30 AM</option>
+                    <option>Summer Evening · 5:00 PM - 6:15 PM</option>
+                    <option>Winter Evening · 4:45 PM - 6:00 PM</option>
                   </select>
                 </div>
 

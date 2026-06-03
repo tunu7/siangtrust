@@ -13,7 +13,7 @@ function Gallery() {
   return (
     <MainLayout>
 
-      <section className="pt-36 pb-24">
+      <section className="pt-32 pt-36 pb-24">
 
         <div className="max-w-7xl mx-auto px-6">
 

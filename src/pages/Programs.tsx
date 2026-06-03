@@ -4,7 +4,7 @@ function Programs() {
   return (
     <MainLayout>
 
-      <section className="pt-36 pb-24">
+      <section className="pt-32 pb-24">
         <div className="max-w-6xl mx-auto px-6">
 
           <h1 className="text-5xl font-bold text-center">

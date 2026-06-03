@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { ArrowRight, CheckCircle, Quote } from "lucide-react";
 import { motion, type Variants } from "framer-motion"; // Imported Variants here
+import gedamEte from "../assets/gedamete.jpg";
+import sunnyVats from "../assets/sunnyvats.jpg";
 
 // Typed properly so TypeScript accepts "easeOut" and easing configurations
 const fadeInUp: Variants = {
@@ -29,7 +31,7 @@ function Home() {
 
       {/* HERO SECTION */}
       <section
-        className="relative h-screen bg-cover bg-center flex items-center justify-center overflow-hidden"
+        className="pt-32 relative h-screen bg-cover bg-center flex items-center justify-center overflow-hidden"
         style={{
           backgroundImage:
             "url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=2000')",
@@ -187,15 +189,18 @@ function Home() {
             className="grid sm:grid-cols-2 gap-8 lg:gap-12 mt-16"
           >
             <TeacherCard
-              image="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1200"
-              name="Gedam Ete"
-              role="Founder · Lead Teacher"
-            />
-            <TeacherCard
-              image="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1200"
-              name="Sunny Vats"
-              role="Senior Teacher"
-            />
+  image={gedamEte}
+  name="Gedam Ete"
+  role="RYT 500 Hours (Traditional Yoga)
+MA (Yoga)"
+/>
+
+<TeacherCard
+  image={sunnyVats}
+  name="Sunny Vats"
+  role="RYT 300 Hours
+(Bihar School of Yoga)"
+/>
           </motion.div>
         </div>
       </section>
