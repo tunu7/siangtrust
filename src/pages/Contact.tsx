@@ -56,7 +56,7 @@ I would like to reserve my place in the class.
 
   return (
     <MainLayout>
-      <section className="pt-32 pt-36 pb-24 bg-[#faf8f5]">
+      <section className="pt-32 pb-24 bg-[#faf8f5]">
         <div className="max-w-6xl mx-auto px-6">
           <div className="max-w-3xl">
             <h1 className="text-5xl font-bold text-[#2c221b]">

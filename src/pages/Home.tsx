@@ -37,7 +37,7 @@ function Home() {
             "url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=2000')",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-r from-black/70 via-black/50 to-transparent" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 w-full grid md:grid-cols-12 items-center">
           <motion.div 
@@ -94,7 +94,7 @@ function Home() {
             <img
               src="https://images.unsplash.com/photo-1545389336-cf090694435e?q=80&w=1200"
               alt="Yoga practice alignment"
-              className="rounded-3xl shadow-xl w-full object-cover h-[450px]"
+              className="rounded-3xl shadow-xl w-full object-cover h-112.5"
             />
           </motion.div>
 

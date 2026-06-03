@@ -74,7 +74,7 @@ export default function Navbar() {
                   after:left-0
                   after:-bottom-1
                   after:w-0
-                  after:h-[2px]
+                  after:h-0.5
                   after:bg-[#6B4F3B]
                   after:transition-all
                   after:duration-300
@@ -105,7 +105,7 @@ export default function Navbar() {
                 className="
                 relative
                 overflow-hidden
-                bg-gradient-to-r
+                bg-linear-to-r
                 from-[#6B4F3B]
                 to-[#8B6A50]
                 text-white
@@ -229,7 +229,7 @@ export default function Navbar() {
                 className="
                 block
                 text-center
-                bg-gradient-to-r
+                bg-linear-to-r
                 from-[#6B4F3B]
                 to-[#8B6A50]
                 text-white
