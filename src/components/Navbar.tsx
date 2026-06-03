@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import logo from "../assets/siangtrustlogo.jpg";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,9 +17,11 @@ export default function Navbar() {
               to="/"
               className="flex items-center gap-3"
             >
-              <div className="w-11 h-11 rounded-full bg-gradient-to-br from-[#6B4F3B] to-[#C8A97E] flex items-center justify-center text-white font-bold text-lg shadow-md">
-                S
-              </div>
+             <img
+  src={logo}
+  alt="Siang Trust Yoga Studio"
+  className="h-12 w-12 object-contain"
+/>
 
               <div>
                 <h1 className="font-bold text-lg text-[#111]">
