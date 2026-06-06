@@ -4,7 +4,7 @@ import { useState } from "react";
 function Contact() {
   const [formData, setFormData] = useState({
     name: "",
-    age: "28",
+    age: "",
     gender: "Female",
     phone: "",
     program: "Traditional Hatha Yoga",
