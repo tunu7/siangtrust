@@ -1,5 +1,6 @@
 import MainLayout from "../layouts/MainLayout";
 import { Helmet } from "react-helmet-async";
+import images from "../assets/studioyoga.jpg";
 
 function About() {
   return (
@@ -32,7 +33,7 @@ function About() {
         <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-16">
 
           <img
-            src="https://images.unsplash.com/photo-1518611012118-696072aa579a"
+            src={images}
             className="rounded-3xl"
           />
 

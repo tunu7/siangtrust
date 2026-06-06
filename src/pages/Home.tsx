@@ -5,6 +5,7 @@ import { ArrowRight, CheckCircle, Quote } from "lucide-react";
 import { motion, type Variants } from "framer-motion"; // Imported Variants here
 import gedamEte from "../assets/gedamete.jpg";
 import sunnyVats from "../assets/sunnyvats.jpg";
+import image from "../assets/yogastudio.jpg";
 
 // Typed properly so TypeScript accepts "easeOut" and easing configurations
 const fadeInUp: Variants = {
@@ -92,7 +93,7 @@ function Home() {
           >
             <div className="absolute inset-0 bg-[#6B4F3B]/5 rounded-3xl transform translate-x-4 translate-y-4 transition-transform group-hover:translate-x-2 group-hover:translate-y-2 -z-10" />
             <img
-              src="https://images.unsplash.com/photo-1545389336-cf090694435e?q=80&w=1200"
+              src={image}
               alt="Yoga practice alignment"
               className="rounded-3xl shadow-xl w-full object-cover h-112.5"
             />
